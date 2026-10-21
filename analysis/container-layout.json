@@ -1,0 +1,40 @@
+{
+  "scope": "Metadata-only comparison of local static protection containers; not a decoded business DEX",
+  "original_stub_dex_bytes": 5014264,
+  "runtime_container_bytes": 4987241,
+  "append_offset_in_original": 27020,
+  "runtime_matches_original_append_without_trailing_3_bytes": true,
+  "trailing_bytes_hex": "000000",
+  "runtime_container_sha256": "624a7c2f76be94e3af89a8b21e3f0c4aab3fbcc1311e6af5bfe092462cb04f43",
+  "configuration_length_field_offset": 8,
+  "configuration_length_field": 457720,
+  "block_count_offset": 457732,
+  "block_count": 3,
+  "blocks": [
+    {
+      "index": 0,
+      "outer_length_offset": 457736,
+      "outer_length": 2334494,
+      "inner_length_offset": 457740,
+      "inner_length": 2334490,
+      "inner_plus_4_equals_outer": true
+    },
+    {
+      "index": 1,
+      "outer_length_offset": 2792234,
+      "outer_length": 2130100,
+      "inner_length_offset": 2792238,
+      "inner_length": 2130096,
+      "inner_plus_4_equals_outer": true
+    },
+    {
+      "index": 2,
+      "outer_length_offset": 4922338,
+      "outer_length": 64899,
+      "inner_length_offset": 4922342,
+      "inner_length": 64895,
+      "inner_plus_4_equals_outer": true
+    }
+  ],
+  "blocks_end_at_runtime_file_end": true
+}

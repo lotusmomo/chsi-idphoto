@@ -1,0 +1,54 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+
+# Capture credentials and private runtime state
+.chsi-idphoto-state.json
+.chsi-idphoto-sessions/
+*-sessions/
+*session*.json
+.env
+.env.*
+!.env.example
+private/
+local/
+reports/
+*-result.json
+
+# Local reverse-engineering inputs, dumps and downloaded dependencies
+work/
+outputs/
+artifacts/
+dumps/
+*.apk
+*.dex
+*.cdex
+*.so
+*.bin
+*.zip
+*.xz
+*.log
+*.jks
+*.keystore
+
+# Personal photos and screenshots
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.heic
+*.heif
+*.gif
+
+# Editor / operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini

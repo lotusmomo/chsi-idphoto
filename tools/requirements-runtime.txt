@@ -1,0 +1,3 @@
+# Optional, only for tools/strings/spawn_decode_strings.py.
+# Use a matching frida-server build on the explicitly selected emulator.
+frida==16.7.19

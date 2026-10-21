@@ -1,0 +1,23 @@
+{
+  "example": true,
+  "description": "Redacted structure of a historically successful upload; not a reusable task response",
+  "mode": "live",
+  "storage_uploaded": true,
+  "receipt_accepted": true,
+  "confirmed": false,
+  "upload": {
+    "http_status": 201,
+    "etag": "<redacted>"
+  },
+  "server_status": {
+    "status": "QUALITY_CHECKING",
+    "confirmPhoto": 1,
+    "qualityStatus": "PASS",
+    "qualityStatusDesc": "处理完成，待考生提交"
+  },
+  "receipt": {
+    "timeout": 120,
+    "interval": 3
+  },
+  "ok": true
+}

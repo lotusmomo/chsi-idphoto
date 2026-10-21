@@ -1,0 +1,133 @@
+{
+  "analysis_date": "2026-10-21",
+  "timezone": "Asia/Shanghai",
+  "input_apk": {
+    "filename": "CHSI_APP_2.6.1.apk",
+    "bytes": 139412854,
+    "sha256": "44b6585726ee3ecaebe28903a2e0c0bd78d2085277133de875b9f022d94e9967"
+  },
+  "package": "cn.com.chsi.chsiapp",
+  "app_version": "2.6.1",
+  "tools": {
+    "jadx": "1.5.6",
+    "string_decoder_frida": "16.7.19",
+    "emulator": "rootable AOSP Android 7.0 API 24 x86_64"
+  },
+  "dex_extraction": {
+    "method": "Read validated app process memory through root ADB in an isolated emulator; repair header hashes only",
+    "apk_included": false,
+    "dex_included": false,
+    "raw_memory_ranges_included": false
+  },
+  "dex": [
+    {
+      "file": "dex/classes.dex",
+      "bytes": 8507820,
+      "sha256": "bf5bbad0e104d46f297bae819aee6c133ffd45d973390ebac0e8c217433d5390",
+      "runtime_raw_sha256": "fccf8499df74ff35c1ce17c9b1c58d4888c1692754dd5cfe8f6da9eef3f23169",
+      "header_changed_offsets": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "payload_from_offset_32_unchanged": true,
+      "declared_classes": 7087,
+      "contains_capture_activity": true
+    },
+    {
+      "file": "dex/classes2.dex",
+      "bytes": 8738816,
+      "sha256": "80f56f9591ddacd46b8863923c80799b8ca1b03198e6369247bc9779806976c1",
+      "runtime_raw_sha256": "704789c1dabc0befd6999e10e2fe5acb71eb577d8fcff93ca11c30541517eb99",
+      "header_changed_offsets": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "payload_from_offset_32_unchanged": true,
+      "declared_classes": 7719,
+      "contains_capture_activity": false
+    },
+    {
+      "file": "dex/classes3.dex",
+      "bytes": 139724,
+      "sha256": "1bb61ff1a7c954d3c460ca0ae21b785d5a78500b97302a3b5a03b5aaacbeadd1",
+      "runtime_raw_sha256": "848a039ce5345dee251875d0c80547b8b8d82016b455d3fb5668e47b4f9d2a8f",
+      "header_changed_offsets": [
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "payload_from_offset_32_unchanged": true,
+      "declared_classes": 124,
+      "contains_capture_activity": false
+    }
+  ],
+  "decoded_string_ids": 832,
+  "limitations": [
+    "Selected strings only; early anomalous returns were independently re-decoded",
+    "Native and virtualized methods remain; not a complete source recovery"
+  ]
+}

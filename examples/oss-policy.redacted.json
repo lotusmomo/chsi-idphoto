@@ -1,0 +1,15 @@
+{
+  "example": true,
+  "description": "Observed conditions with credentials and object identity removed; not a valid upload policy",
+  "expiration": "<redacted>",
+  "conditions": [
+    {"bucket": "<redacted>"},
+    {"x-oss-security-token": "<redacted>"},
+    {"x-oss-signature-version": "OSS4-HMAC-SHA256"},
+    {"x-oss-credential": "<redacted>"},
+    {"x-oss-date": "<redacted>"},
+    ["content-length-range", 1024, 1048576],
+    ["eq", "$success_action_status", "201"],
+    ["eq", "$key", "<redacted>.jpg"]
+  ]
+}
